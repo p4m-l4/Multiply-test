@@ -1,8 +1,6 @@
 import { assert } from 'chai';
 import { multiply } from '../multiply.js';
 
-
-
 describe('Testing multiplication function', () => {
   it('should return 1', () => {
         assert.equal(multiply(1, 1), 1);
@@ -24,6 +22,9 @@ describe('Testing multiplication function', () => {
         assert.equal(multiply(23, 45), 23 * 45);
     });
 
+    it('Testing -23x45 to return 23*45', () => {
+        assert.equal(multiply(-23, 45), -23 * 45);
+    });
     it('Testing -23x45 to return 23*45', () => {
         assert.equal(multiply(-23, 45), -23 * 45);
     });
