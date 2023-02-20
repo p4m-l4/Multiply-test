@@ -2,7 +2,8 @@
     "env": {
         "browser": true,
         "es2021": true,
-        "node": true
+        "node": true,
+        "mocha": true
     },
     "extends": "airbnb-base",
     "overrides": [
@@ -15,6 +16,7 @@
         "import/no-extraneous-dependencies" : "off",
         "import/prefer-default-export": "off",
         "linebreak-style": ["error", "windows"],
-        "import/extensions": "off"
+        "import/extensions": "off",
+        "no-else-return": "off"
     }
 }
