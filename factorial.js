@@ -9,9 +9,6 @@ export function factorial(n) {
       res *= i;
     }
     return res;
-  } else {
-    return 'Please enter an integer';
-  }
 }
 
 // Using recursion
